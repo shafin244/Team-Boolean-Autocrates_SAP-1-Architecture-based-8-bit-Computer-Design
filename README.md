@@ -25,3 +25,10 @@ For phase B of Sap-1, we have 2 types of modules to construct.
  hand, ram holds the data, address, and instructions which will be processed in a structured
  way, unlike registers which store 4 or 8-bit data.
 
+For phase C of Sap-1, we have 2 modules to construct: the Controller/Sequencer and the Instruction Register. 
+
+The Instruction Register is responsible for holding the fetched instruction from memory by separating it into two parts — the opcode and the operand. The opcode is used to identify the type of operation to be performed, while the operand provides the data address or value needed for that operation.
+
+On the other hand, the Controller/Sequencer generates the required control signals step by step with each clock pulse (T-states), ensuring that all modules such as the program counter, memory, registers, and ALU work in proper order. Together, these two modules allow the system to fetch, decode, and execute instructions, completing the full operational cycle of the SAP-1 computer.
+
+
