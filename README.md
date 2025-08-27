@@ -1,2 +1,5 @@
 # Team-Boolean-Autocrates_SAP-1-Architecture-based-8-bit-Computer-Design
-Design and implement an 8-bit computer based on the architecture of SAP-1 (Simple-As-Possible) using combinational and sequential logic circuits. This project requires – Designing SAP-1 architecture using Proteus simulator as per the specifications. Hardware Implementation of SAP-1 using PCB board(s) with allowable and available ICs.
+Design and implement an 8-bit computer based on the architecture of SAP-1 (Simple-As-Possible) using combinational and sequential logic circuits. 
+This project requires – 
+1. Designing SAP-1 architecture using Proteus simulator as per the specifications.
+2. Hardware Implementation of SAP-1 using PCB board(s) with allowable and available ICs.
