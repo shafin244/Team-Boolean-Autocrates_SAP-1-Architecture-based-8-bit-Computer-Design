@@ -4,6 +4,8 @@ This project requires –
 1. Designing SAP-1 architecture using Proteus simulator as per the specifications.
 2. Hardware Implementation of SAP-1 using PCB board(s) with allowable and available ICs.
 
+<img width="1659" height="1226" alt="BOOLEAN AUTOCRATS_SAP 1_FINAL" src="https://github.com/user-attachments/assets/9030f3e2-5b43-4337-8171-bc38820260f1" />
+
 For phase A of SAP-1, we have 3 modules to construct: 
 1. Clock pulse generator. 
 2. Program counter. 
