@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activewindow="0">
+  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffff720100000100000080070000e5030000</PLACEMENT>
+  <WINDOW type="default" module="ISIS"/>
+  <WINDOW type="default" module="ARES"/>
+ </FRAME>
+ <MODULE name="VSMDEBUG">
+  <PWI>
+   <POPUP w="800" x="37" flags="00000002" y="148" h="200" pid="0" iid="-1">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="350" x="57" flags="00000032" y="168" h="200" pid="1" iid="-1">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="695" x="77" flags="00000000" y="188" h="459" pid="0" iid="28">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="695" x="97" flags="00000000" y="208" h="459" pid="0" iid="9">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="695" x="117" flags="00000000" y="228" h="459" pid="0" iid="19">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="695" x="137" flags="00000000" y="248" h="459" pid="0" iid="36">
+    <PROPERTIES/>
+   </POPUP>
+  </PWI>
+ </MODULE>
+</WORKSPACE>
