@@ -31,4 +31,8 @@ The Instruction Register is responsible for holding the fetched instruction from
 
 On the other hand, the Controller/Sequencer generates the required control signals step by step with each clock pulse (T-states), ensuring that all modules such as the program counter, memory, registers, and ALU work in proper order. Together, these two modules allow the system to fetch, decode, and execute instructions, completing the full operational cycle of the SAP-1 computer.
 
+For phase D of Sap-1, we have 1 main module to construct: the Arithmetic Logic Unit (ALU). 
+The ALU is the heart of the SAP-1 architecture as it carries out the actual arithmetic operations required by the instructions. In our design, the ALU is simple and limited to two operations — addition and subtraction — which are sufficient for demonstrating the working principle of the computer. 
+
+The ALU receives one input directly from the Accumulator and the other from the B-register, and based on the control signal (`SU` for subtract or default for addition), it performs the required operation. The output of the ALU can then be placed back on the data bus and stored into the Accumulator or sent to the Output Register depending on the instruction sequence. Architecturally, the ALU works in synchronization with the Controller/Sequencer, ensuring that the right operation is performed at the right clock cycle. Although minimal, this ALU design demonstrates the basic computational capability of SAP-1 and serves as the processing engine around which the rest of the modules function.
 
